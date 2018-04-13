@@ -19,7 +19,8 @@ class Postcodesio
 end
 
 single = Postcodesio.new 
- p single.get_single_postcode('KT58SW')
-# single.multiple_postcodes_search(['b601ja', 'KT58SW'])
+ # p single.get_single_postcode('KT58SW')
+
+print single.get_multiple_postcodes(['b601ja', 'KT58SW'])
 
 
